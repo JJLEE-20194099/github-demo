@@ -1,0 +1,494 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+    1. làm từ ngoài vào trong
+    2. làm từ trên xuống dưới
+    3. từ tổng quan đến chi tiết
+*/
+
+/* 
+    1.vi tri
+    2.kich thuoc(Width, height)
+    3.mau sac
+    4.font-style,...-> kieu dang
+*/
+
+/* #main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav li:hover a {
+    color: #000;
+    background-color: #ccc;
+    
+}
+
+#nav .subnav {
+    display: none;
+}
+
+
+#content {
+
+}
+
+#footer {
+
+}  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ta không dung * thay cho html vì sỡ dĩ ta chỉ tác động thuộc tính font-family lên chữ mà thôi, còn co nhưng thẻ không có chữ thì nó không cần bị css */
+
+/* common */
+html {
+
+    font-family: Arial, Helvetica, sans-serif;
+    /* Arial và Helvetica là 2 phông chữ không chân, nếu trong máy không có 2 phông này thì nó sẽ sử dụng 1 phông trong họ chữ
+    không chân sans-serif */
+    scroll-behavior: smooth;
+}
+
+.clear {
+    clear: both
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-full {
+    width:100%;
+}
+
+.col {
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    height: 46px;
+    z-index: 1;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 11px;
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav > li {
+    /* hiển thị theo list theo hàn ngang */
+    display: inline-block;
+}
+
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+#nav li a {
+    /* line-height dùng đẻ align text vào giữ dòng  */
+    line-height: 46px;
+    padding: 0 24px;
+/* 
+    text-decoration: none dùng để cho text không có dấu gạch ngang ở dưới */
+    text-decoration: none;
+
+    /* nếu display là inline thì khi ta hover vào thẻ a thì  background hiển thị nó sẽ ăn theo kích thước của thẻ a mà thẻ sẽ
+    sẽ có kích thước là auto neeys display là inline do đó ta phải cho display là inline-block để  nó có size background  giống với backgroung ban đầu*/
+    display: block;
+}
+
+#nav li:hover > a {
+    background-color: #ccc;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav li:hover a {   
+    color: #000;
+}
+
+#nav .subnav {
+    /* để cho không hiện thị list khi không hover vào ẩn nó đi */
+    display: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 160px;
+}
+
+#nav .subnav a{
+    color: black;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+#nav li {
+    position: relative;
+}
+
+
+#nav li .subnav {
+    position: absolute;
+    background-color: white;
+    top: 47px;
+    left: 0;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .nav-arrow-down {
+    font-size: 14px;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+#header .search-button {
+    float: right;
+    padding: 0 21px;
+}
+
+#header .search-button:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/assets/img/slider1.jpg') top center / cover no-repeat;
+    position: relative;
+}
+
+#slider .text-content{ 
+    position: absolute;
+    /* left: 50%;
+    transform: translateX(-50%);
+    text-align: center; */
+    /* width: 100%;
+    text-align: center; */
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color: white;
+    bottom: 47px;
+}
+
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#slider .text-description {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+
+
+
+
+#content {
+    
+}
+
+#content .content-section {
+    width: 800px;
+    padding: 64px 0px 112px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+#content .section-sub-heading {
+    font-size: 15px;
+    margin: 15px 0;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .about-text {
+    font-size: 15px;
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 20px;
+
+}
+
+#content .section-heading, 
+#content .section-sub-heading {
+    text-align: center;
+}
+
+#content .member-item {
+    float: left;
+    width: 33.3333333333333333333333333333333333333333333333333333%;
+    text-align: center;
+}
+
+#content .member-name {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+#content .member-img {
+    width: 154px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
+#content .member-list {
+    padding: 32px 0;
+}
+
+/* tour-section */
+
+.text-white {
+    color: white !important;
+}
+.tour-section {
+    background-color: black;
+    height: 826px;
+}
+
+.tickets-list {
+    background-color: white;
+    margin-top: 40px;
+    list-style: none;
+    ;
+}
+
+.tickets-list li {
+    font-size: 15px;
+    height: 38px;
+    padding: 8px 16px;
+    margin: 0 0 0 16px;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+}
+
+.tickets-list .sold-out { 
+    background-color: #f44336;
+    color: #fff;
+    margin-left: 16px;
+    padding: 3px 7px;
+}
+
+.tickets-list .quantity {
+    width: 24px;
+    height: 22px;
+    background-color: #000;
+    float: right;
+    line-height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    margin: -1px;
+    color: #fff;
+}
+
+.tour-section .section-heading,
+.tour-section .section-sub-heading {
+    color: #fff;
+}
+
+.place-item {
+    width: 33.3333333333333333333333333333333333%;
+}
+
+.place-img {
+    width: 100%;
+    display: block;
+    
+}
+
+.place-img:hover {
+    opacity: 0.6;
+}
+
+.places-list {
+    margin-top: 32px;
+}
+.place-body {
+    background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.place-heading {
+    font-size: 15px;
+}
+
+.place-time {
+    margin-top: 13px;
+    color: #757575;
+}
+
+.place-description {
+    line-height: 16px;
+    margin-top: 10px;
+}
+
+
+/* contact-form */
+
+.contact-content {
+    margin-top: 48px;
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 33px;
+}
+
+.contact-info i[class*="ti-"] {
+    /* neu display la inline thi se khong dat duoc width phai 
+    doi ve inline-block */
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-form {
+    font-size: 15px; 
+}
+
+.contact-form .form-control {
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 100%;
+    outline-color: rgb(98, 98, 151);
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contact-form-submit-btn {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 16px;
+    float: right;
+}
+
+.btn:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.Map {
+    margin-top: 80px;
+    width: 100%;
+}
+
+#footer .content-footer{
+    height: 170px;
+    padding: 64px 16px;
+    color: rgb(97, 94, 94);
+    text-align: center;
+}
+
+#footer .content-footer i {
+    font-size: 25px;
+}
+
+#footer .sub-footer {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#footer .link-infor {
+    color: rgb(97, 94, 94);
+}
+
+#footer .platform-infor i:hover, 
+#footer .link-infor:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
