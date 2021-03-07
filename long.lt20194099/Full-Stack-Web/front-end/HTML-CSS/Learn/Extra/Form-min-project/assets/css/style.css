@@ -1,0 +1,40 @@
+.form-content {
+    width: 50%;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.form-content .form-heading {
+    color: #2196F3;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.form-content .admin-row {
+    padding: 16px 32px;
+    color: #2196F3;
+}
+
+.form-content .icon {
+    font-size: 30px;
+}
+
+.form-content .form-input {
+    vertical-align: middle;
+    padding: 6px 350px 6px 3px;
+    border: #ccc;
+}
+
+
+.form-content .submit-btn {
+    background-color: #2196F3;
+    text-align: center;
+    color: white;
+}
+
+.form-content .submit-btn:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,3 @@
+/home/longlt/CLionProjects/QuickLeftRotation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/longlt/CLionProjects/QuickLeftRotation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/longlt/CLionProjects/QuickLeftRotation/cmake-build-debug/CMakeFiles/QuickLeftRotation.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Max_S_umi_arr_i__.dir/main.cpp.o  -o Max_S_umi_arr_i__ 

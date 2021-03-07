@@ -1,0 +1,33 @@
+.box {
+    width: 100%;
+    height: 100vh;
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-image: 
+    linear-gradient(0deg, rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5)), 
+    url(https://previews.123rf.com/images/littlefoxhill/littlefoxhill1804/littlefoxhill180400007/100122089-vector-sleepy-animal-seamless-repeat-background.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    padding: 30px;
+    box-sizing: border-box;
+    background-origin: border-box;
+    background-position: top; */
+
+    background: linear-gradient(0deg, rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5)) no-repeat center / contain, url(https://previews.123rf.com/images/littlefoxhill/littlefoxhill1804/littlefoxhill180400007/100122089-vector-sleepy-animal-seamless-repeat-background.jpg) no-repeat center / contain;
+}
+
+#websiteTheme {
+    width: 100%;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: teal;
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}

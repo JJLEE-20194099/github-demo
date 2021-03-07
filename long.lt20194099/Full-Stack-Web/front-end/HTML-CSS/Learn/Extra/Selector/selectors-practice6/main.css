@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+}
+
+.heading-class{
+    color: royalblue;
+}
+
+#heading-id li{
+    color: red;
+}
+
+
+#heading-id {
+    color: orange;
+}
+
+
+/* universal selector */
+/* u tien nhung selector co thuoc tinh important*/
+/* * {
+    color: sienna !important;
+} */

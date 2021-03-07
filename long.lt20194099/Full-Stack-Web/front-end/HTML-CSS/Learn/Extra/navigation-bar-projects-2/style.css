@@ -1,0 +1,99 @@
+body {
+    display: block;
+}
+
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.navigation-bars-container {
+    margin: 0px 8px;
+}
+
+div {
+    display: block;
+}
+
+.navigation-bars {
+    width: 100%;
+    padding: 8px 16px;
+}
+.navigagion-bars-black {
+    background-color: #000;
+}
+
+.navigation-bars-border {
+    border: 1px solid lightblue;
+}
+
+.navigation-bars-item {
+    color: #fff;
+    padding: 8px 16px;
+    float: left;
+}
+
+.navigation-bars-button {
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.navigation-bars-button:hover {
+    background-color: #ccc;
+}
+
+input {
+    text-align: start;
+    line-height: 22px;
+    border: none;
+}
+
+.navigation-bars .navigation-bars-input:hover {
+    background-color: white!important;
+}
+
+.navigation-bars-green {
+    background-color: lightgreen;
+}
+
+.navigation-bars-dropdown-hover .navigation-bars-button {
+    line-height: 22px;
+    border: none;
+    background-color: #000;
+    position: relative;
+}
+
+.navigation-bars-dropdown-hover .navigation-bars-button:hover {
+   background-color: #ccc;
+}
+
+.navigation-bars-dropdown-hover .navigation-bars-dropdown-content {
+    position: absolute;
+    background-color: #000;
+    margin-left: 217px;
+    margin-top: 44px;
+    width: 150px;
+    display: none;
+}
+
+.navigation-bars-dropdown-hover .navigation-bars-button:hover div{
+    display: block;
+}
+
+.navigation-bars-dropdown-hover .sub-navigation-bars-button {
+    display: block;
+    text-decoration: none;
+    text-align: start;
+    color: #fff;
+}
+
+
+.navigation-bars-dropdown-hover .sub-navigation-bars-item {
+    padding: 8px 16px;
+}
+
+.navigation-bars-dropdown-hover .sub-navigation-bars-item:hover {
+    background-color: #ccc!important;
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/printAncestors.dir/main.cpp.o  -o printAncestors 

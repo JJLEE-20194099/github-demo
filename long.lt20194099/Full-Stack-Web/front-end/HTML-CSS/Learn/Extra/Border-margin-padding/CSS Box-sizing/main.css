@@ -1,0 +1,16 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orchid;
+    padding: 16px;
+    color: white;
+    margin: ;
+    /* border-color: teal;
+    border-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px; */
+    border: 1px solid teal;
+    box-sizing: border-box;
+}

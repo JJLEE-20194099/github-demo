@@ -1,0 +1,22 @@
+#Box {
+    width: 100%;
+    height: 200px;
+    background-color: teal;
+    font-size: 100px;
+    color:tomato;
+    font-style: italic;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+}
+
+ul {
+    height: 2000px;
+
+}
+
+.header {
+    margin-top: 500px;
+}

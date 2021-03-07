@@ -1,0 +1,75 @@
+{
+	"folders": [
+		{
+			"name": "Selectors",
+			"path": "../../HTML-CSS-Core/Selectors"
+		},
+		{
+			"name": "CSS-tourial-ID-Class",
+			"path": "../../CSS-tourial-ID-Class"
+		},
+		{
+			"name": "ID-Class-Advanced",
+			"path": "../../ID-Class-Advanced"
+		},
+		{
+			"name": "longlt",
+			"path": "../.."
+		},
+		{
+			"name": "CSS-tourial",
+			"path": "../../CSS-tourial"
+		},
+		{
+			"path": "../../Desktop/HTML-CSS-core/HTML-CSS-CORE/HTML_CSS_CORE"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Selectors-Practice"
+		},
+		{
+			"path": "../selectors-Practice1"
+		},
+		{
+			"path": "../selectors-practice2"
+		},
+		{
+			"path": "../selectors-practice3"
+		},
+		{
+			"path": "../selectors-practice4"
+		},
+		{
+			"path": "../selectors-practice5"
+		},
+		{
+			"path": "../selectors-practice6"
+		},
+		{
+			"path": "../CSS-Units"
+		},
+		{
+			"path": "../CSS-p"
+		},
+		{
+			"path": "../CSS-border"
+		},
+		{
+			"path": "../CSS-margin"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "longlt",
+		"liveServer.settings.port": 1024
+	},
+	"extensions": {
+		"recommendations": [
+			"ritwickdey.liveserver"
+		]
+	}
+}

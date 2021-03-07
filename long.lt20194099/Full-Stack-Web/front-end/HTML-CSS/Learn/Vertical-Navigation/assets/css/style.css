@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: pink;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+}
+
+li a.active {
+    background-color: purple!important;
+    font-weight: bold;
+    color: white;
+}
+
+.content {
+    margin-left: 30%;
+}
+
+

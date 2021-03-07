@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/RearrangeVer2.dir/main.cpp.o  -o RearrangeVer2 

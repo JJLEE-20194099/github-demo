@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Max_Sum_i_ar_i__.dir/main.cpp.o  -o Max_Sum_i_ar_i__ 

@@ -1,0 +1,48 @@
+input[type=text] {
+    width: 100%;
+    padding: 12px 50px;
+    background-color: lightblue;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+input[type=text]:focus{
+    background-color: burlywood;
+}
+
+
+label {
+    font-size: 25px;
+    margin: 15px;
+}
+
+input[type=text].search{
+    background-image: url(https://image.shutterstock.com/image-vector/magnifying-glass-icon-vector-search-260nw-1727624158.jpg);
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-color: white;
+    border: 1px solid black;
+    width:50%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text].search:focus {
+    width: 100%;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 15px;
+}
+
+option {
+    width: 100%;
+    padding: 12px;
+    margin: 15px;
+}
+
+

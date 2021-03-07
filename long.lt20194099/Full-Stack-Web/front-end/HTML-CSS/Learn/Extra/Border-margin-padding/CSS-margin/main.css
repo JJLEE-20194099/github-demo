@@ -1,0 +1,40 @@
+.box {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    float: left;
+    border-style: solid;
+}
+
+.box1 {
+    background-color: red;
+    margin-right: 10px;
+    border-color: orchid;
+}
+
+.box2 {
+    background-color: indigo;
+    border-color: peru;
+    margin: 0px 10px 10px 0px;
+}
+
+.box3 {
+    background-color: orange;
+    border-color: skyblue;
+}
+
+#JJLee {
+    background-color: teal;
+    width: 500px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-style: italic;
+    color: tomato;
+}
+
+
+

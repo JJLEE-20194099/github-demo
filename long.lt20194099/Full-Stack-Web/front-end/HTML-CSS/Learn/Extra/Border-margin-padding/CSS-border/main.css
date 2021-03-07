@@ -1,0 +1,32 @@
+.box {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+}
+
+.box1 {
+    background-color: pink ;
+    padding: 10px 12px 15px 18px;
+    border-top-width: 30px;
+    border-color: rebeccapurple;
+}
+
+.box2 {
+    background-color: red;  
+    padding: 10px 12px 15px;
+    border-left-width: 50px;
+    border-color: royalblue;
+}
+
+.box3 {
+    background-color: sienna;
+    padding: 10px 12px;
+    border-top: 10px solid greenyellow;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PairWithAGivenSum.dir/main.cpp.o  -o PairWithAGivenSum 

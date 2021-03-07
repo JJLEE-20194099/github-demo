@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>practice CSS selectors</title>
+        <meta charset="utf-8">
+        <style>
+            div.first-box {
+                color: black;
+                font-size: 30px;
+            }
+
+            /* div p {
+                color: pink;
+                font-size: 25px;
+            } */
+
+            div ~ p {
+                color: red;
+                font-size: 10;
+            }
+            div + p {
+                color: rebeccapurple;
+                font-size: 20;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="first-box">
+            <h1>the first tag in the first-box</h1>
+            <h2>the second tag in the second-box</h2>
+            <p>first-box contains some tags</p>
+        </div>
+
+        <div>tag p lien sau the div</div>
+        <p>tag p</p>
+        <p>tag p</p>
+
+    </body>
+</html>

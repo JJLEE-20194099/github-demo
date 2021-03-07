@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>practice_selectors</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <style>
+            /* tag_priority */
+            p {
+                color: violet;
+                font-size: 30px;
+            }
+            
+            /* class_priority */
+            .class_priority {
+                color: tomato;
+                font-size: 35px;
+            }
+
+            /* id_priority */
+            #id_priority {
+                color: teal;
+                font-size: 50px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+      <!-- inline_priority -->
+        <p style="color: greenyellow; font-size: 10px" id="id_priority" class="class_priority">External</p>    
+    </body>
+
+</html>

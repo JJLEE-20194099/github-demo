@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>practice selectors</title>
+        <h1>Practice 1</h1>
+        <meta charset="utf-8">
+        <style>
+            .parent .children {
+                color: green;
+                font-size: 20px;
+            }
+
+            .parent.children {
+                color: lightcoral;
+            }
+            
+        </style>
+    </head>
+
+    <!-- children là con trực tiếp của parent -->
+    <body>
+        <div class="children parent">Test Parent Children</div>
+        <div class="parent">
+            <div class="children">children là con của parent1</div>
+            <div class="children">children là con của parent2</div>
+            <div class="children">children là con của parent3</div>
+        </div>
+
+        <div class="parent">
+            <div class="children">children1</div>
+
+            <div class="other-div">
+                <div class="children">children2</div>
+
+                <div class="other-div">
+                    <div class="children">children3</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

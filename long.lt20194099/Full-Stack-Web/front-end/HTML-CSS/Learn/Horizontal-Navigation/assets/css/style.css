@@ -1,0 +1,26 @@
+h2 {
+    color: purple;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    float: left;
+    background-color: pink;
+    padding: 8px 16px;
+}
+
+ul li:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}

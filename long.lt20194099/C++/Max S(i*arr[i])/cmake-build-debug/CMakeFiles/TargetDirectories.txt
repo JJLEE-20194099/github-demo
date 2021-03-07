@@ -1,0 +1,3 @@
+/home/longlt/CLionProjects/Max S(umi*arr[i])/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/longlt/CLionProjects/Max S(umi*arr[i])/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/longlt/CLionProjects/Max S(umi*arr[i])/cmake-build-debug/CMakeFiles/Max_S_umi_arr_i__.dir

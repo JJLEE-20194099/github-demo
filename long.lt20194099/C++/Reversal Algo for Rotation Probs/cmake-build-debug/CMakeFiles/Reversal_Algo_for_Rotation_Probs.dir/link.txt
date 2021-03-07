@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Reversal_Algo_for_Rotation_Probs.dir/main.cpp.o  -o Reversal_Algo_for_Rotation_Probs 
